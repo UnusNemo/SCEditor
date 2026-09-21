@@ -67,6 +67,7 @@ Install dependencies:
 
 ```bash
 npm install
+npm run build
 ```
 
 That's it! You can now build and test SCEditor with the following commands:
