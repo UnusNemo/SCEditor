@@ -47,8 +47,7 @@
     "dompurify": "^3.2.7"
   },
   "devDependencies": {
-    "esbuild": "^0.28.2",
-    "less": "^4.9.1"
+    "esbuild": "^0.28.2"
   },
   "allowScripts": {
     "esbuild@0.28.2": true
