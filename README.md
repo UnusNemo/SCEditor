@@ -61,7 +61,7 @@ For a full list of options, see the [options documentation](http://www.sceditor.
 
 ## Building from source
 
-SCEditor uses a minimal build system powered by Node.js, esbuild, and Less.
+SCEditor uses a minimal build system powered by Node.js, esbuild.
 
 Install dependencies:
 
