@@ -4,9 +4,9 @@
 [![SemVer](http://img.shields.io/:semver-✓-brightgreen.svg)](http://semver.org)
 [![License](http://img.shields.io/npm/l/sceditor.svg)](https://github.com/samclarke/SCEditor/blob/master/LICENSE.md)
 
-A lightweight WYSIWYG BBCode and XHTML editor.
+This is a modernized version of SCEditor to remove the broken decencies of the old grunt build system.
 
-[![SCEditor preview](https://cdn.rawgit.com/samclarke/SCEditor/49c696b8/preview.svg)](https://www.sceditor.com/)
+A lightweight WYSIWYG BBCode and XHTML editor.
 
 For more information visit [sceditor.com](http://www.sceditor.com/)
 
@@ -59,42 +59,17 @@ For a full list of options, see the [options documentation](http://www.sceditor.
 
 
 
-## Building and testing
+## Building from source
 
-You will need [Grunt](http://gruntjs.com/) installed to run the build/tests. To install Grunt run:
+SCEditor uses a minimal build system powered by Node.js, esbuild, and Less.
 
-```bash
-npm install -g grunt-cli
-```
-
-Next, to install the SCEditor dev dependencies run:
+Install dependencies:
 
 ```bash
 npm install
 ```
 
 That's it! You can now build and test SCEditor with the following commands:
-
-```bash
-# Minify the JS and convert the LESS to CSS
-grunt build
-
-# Run the linter, unit tests and coverage
-grunt test
-
-# Creates the final distributable ZIP file
-grunt release
-```
-
-You can also run the dev server to test changes without having to do a full
-build by running:
-
-```bash
-npm run dev
-```
-
-and then going to http://localhost:9000/tests/
-
 
 ## Contribute
 

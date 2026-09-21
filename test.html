@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SCEditor Build Test</title>
+  <link rel="stylesheet" href="minified/themes/default.min.css" />
+</head>
+<body>
+  <textarea id="editor" style="width: 600px; height: 300px;"></textarea>
+
+  <script src="minified/sceditor.min.js"></script>
+  <script src="minified/formats/bbcode.js"></script>
+  <script>
+    const textarea = document.getElementById('editor');
+    sceditor.create(textarea, {
+      format: 'bbcode',
+      style: 'minified/themes/content/default.min.css'
+    });
+    console.log('SCEditor instance created:', sceditor.instance(textarea));
+  </script>
+</body>
+</html>
