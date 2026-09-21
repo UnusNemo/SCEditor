@@ -39,6 +39,7 @@ async function run() {
     ...commonConfig,
     entryPoints: formatEntries,
     outdir: 'minified/formats',
+    outExtension: { '.js': '.min.js' }, // <-- outputs bbcode.min.js & xhtml.min.js
     format: 'iife',
     platform: 'browser',
   });
