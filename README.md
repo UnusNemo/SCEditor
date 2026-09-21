@@ -4,10 +4,10 @@
 [![SemVer](http://img.shields.io/:semver-✓-brightgreen.svg)](http://semver.org)
 [![License](http://img.shields.io/npm/l/sceditor.svg)](https://github.com/samclarke/SCEditor/blob/master/LICENSE.md)
 
-This is a modernized version of SCEditor to remove the broken decencies of the old grunt build system.
-
 A lightweight WYSIWYG BBCode and XHTML editor.
 
+This is a modernized version of SCEditor to remove the broken dependencies of the old grunt build system. I have rewritten the theme system to use modern CSS instead of less and updated to esbuild vs grunt to remove many issues with deprecated modules.
+ 
 For more information visit [sceditor.com](http://www.sceditor.com/)
 
 
